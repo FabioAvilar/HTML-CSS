@@ -2,10 +2,67 @@ h1 {
     color: black;
 }
 
-#primeiro-h1 {
-    color: blueviolet;
-}
-
 .segundo-h1 {
     color: aqua;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+}
+
+.container {
+    background-color: #333;
+    color: #eee;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 60px;
+    padding: 60px;
+    border: 12px solid red;
+    box-sizing: border-box;
+}
+
+.main-aside h2 {
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-aside ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.main-aside ul a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main-aside ul a:hover {
+    color: red;
+}
+
+.main-form {
+    padding-left: 20px;
+}
+
+.main-form .form-group {
+    padding-bottom: 10px;
+}
+
+.main-form .form-group input {
+    padding: 10px;
+}
+
+.main-form .form-group label {
+    display: block;
+
+}
+
+.button {
+    padding: 15px;
+    background-color: #333;
+    color: #eee;
+    border: none;
 }
