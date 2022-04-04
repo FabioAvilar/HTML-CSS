@@ -8,12 +8,16 @@
     <title>Curso CSS</title>
 </head>
 <body>
+    <nav id="main-bar">
+        <h1>Barra de Navegação</h1>
+    </nav>
     <h2 class="segundo-h1">Hallo Welt</h2>
 
     <div class="container">
         <h1>Hello World</h1>
 
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, nulla optio voluptas suscipit necessitatibus magni odio, ut reiciendis omnis libero officiis dolor quod voluptatibus inventore iure minima itaque. Totam, vitae.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, nulla optio voluptas suscipit necessitatibus magni odio, ut reiciendis omnis libero officiis dolor quod voluptatibus inventore iure minima itaque. Totam, vitae.
+        </p>
     </div>
     <aside class="main-aside">
         <h2>Redes Sociais</h2>
@@ -23,28 +27,48 @@
         </ul>
     </aside>
 
-    <form action="form.php" method="POST" class="main-form">
-        <div class="form-group">
-            <label>Primeiro Nome:</label>
-            <input type="text" placeholder="Entre seu primeiro nome">
-        </div>
+    <div class="box">
+        <form action="form.php" method="POST" class="main-form">
+            <div class="form-group">
+                <label>Primeiro Nome:</label>
+                <input type="text" placeholder="Entre seu primeiro nome">
+            </div>
+    
+            <div class="form-group">
+                <label>Segundo Nome:</label>
+                <input type="text">
+            </div>
+    
+            <div class="form-group">
+                <label>Email:</label>
+                <input type="email">
+            </div>
+    
+            <div class="form-group">
+                <label>Mensagem</label>
+                <textarea name="mensagem"></textarea>
+            </div>
+    
+            <input class="button" type="submit">
+        </form>
+    </div>
 
-        <div class="form-group">
-            <label>Segundo Nome:</label>
-            <input type="text">
+    <div class="box relative">
+        <div class="absolute">
+            <h1>Olá Mundo :)</h1>
         </div>
+    </div>
+    <button class="fixed-button">Fixed</button>
 
-        <div class="form-group">
-            <label>Email:</label>
-            <input type="email">
-        </div>
-
-        <div class="form-group">
-            <label>Mensagem</label>
-            <textarea name="mensagem"></textarea>
-        </div>
-
-        <input class="button" type="submit">
-    </form>
+    <div class="categories">
+        <h2>Categories</h2>
+        <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+    </div>
 </body>
 </html>
