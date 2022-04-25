@@ -1,0 +1,31 @@
+*{
+    background-color: lightcoral;
+}
+
+h1{
+    background-color: lightcyan;
+}
+
+p{
+    background-color: lightgreen;
+}
+
+li{
+    background-color: blue;
+}
+
+ul{
+    background-color: red;
+}
+
+#title{
+    background-color: lightgreen;
+}
+
+.test{
+    background-color: aquamarine;
+}
+
+[href]{
+    background-color: mediumorchid;
+}
