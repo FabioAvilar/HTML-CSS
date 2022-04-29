@@ -1,7 +1,7 @@
-/* *{
-    margin: 0;
-    padding: 0;
-} */
+*{
+    
+    box-sizing: border-box;
+}
 
 body{
     background-color: #333;
@@ -25,7 +25,8 @@ body{
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    /* padding: 50px 20px 100px; */
+    padding: 20px;
+    border: 5px solid red;
 }
 
 .inline{
