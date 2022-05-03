@@ -1,0 +1,25 @@
+body{
+    background-color: mediumorchid;
+    color: #333;
+}
+
+.main{
+    /* background-color: currentColor; */
+    color: aquamarine;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(21, 161, 5, 0.664);
+    /* border: 5px solid; */
+    align-items: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
