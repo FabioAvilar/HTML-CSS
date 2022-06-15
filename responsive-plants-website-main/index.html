@@ -26,7 +26,7 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">Home</a>
+                            <a href="#home" class="nav__link active-link">Home</a>
                         </li>
 
                         <li class="nav__item">
@@ -51,8 +51,13 @@
                     </div>
                 </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-line"></i>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -148,9 +153,7 @@
                                 We have several varieties plants you can choose from.
                             </p>
                         </div>
-                    </div>
 
-                    <div class="steps__container grid">
                         <div class="steps__card">
                             <div class="steps__card-number">02</div>
                             <h3 class="steps__card-title">Place an order</h3>
@@ -158,9 +161,7 @@
                                 Once your order is set, we move to the next step which is the shipping.
                             </p>
                         </div>
-                    </div>
 
-                    <div class="steps__container grid">
                         <div class="steps__card">
                             <div class="steps__card-number">03</div>
                             <h3 class="steps__card-title">Get plants delivered</h3>
@@ -494,7 +495,9 @@
         </footer>
 
         <!--=============== SCROLL UP ===============-->
-        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
 
         <!--=============== SCROLL REVEAL ===============-->
         <script src=""></script>
